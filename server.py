@@ -22,15 +22,15 @@ __UPLOADS__ = "uploads/"
 
 rooms = {"5":
             {"base":"1.html",
-            "raw_transcripts_dict":{"0":"és toda louca","1":"fina"},
+            "raw_transcripts_dict":{"0":"este evento","1":"fina"},
             "en":
                 {"translated_transcripts_dict":
-                    {"0":"crazy","1":"thin"}
+                    {"0":"this event is very funny","1":"thin"}
                 }
             ,
             "es":
                 {"translated_transcripts_dict":
-                    {"0":"loca","1":"magrizima"}
+                    {"0":"este evento","1":"magrizima"}
                 }
             }
         }

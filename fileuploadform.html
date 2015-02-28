@@ -1,0 +1,65 @@
+
+<html>
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<title>Upload Form</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-latest.min.js"
+        type="text/javascript"></script>
+	<style>
+	.top-container{
+		text-align: center;
+		margin: 0 auto;
+		width: 20%;
+	}
+	.title {
+		font-family: 'Lobster', cursive;
+		font-size: 400%;
+	}
+
+	.top-container{
+		text-align: center;
+		margin: 0 auto;
+		width: 70%;
+	}
+
+	.btn-file {
+		position: relative;
+		overflow: hidden;
+	}
+	.btn-file input[type=file] {
+		position: absolute;
+		top: 0;
+		right: 0;
+		min-width: 100%;
+		min-height: 100%;
+		font-size: 100px;
+		text-align: right;
+		filter: alpha(opacity=0);
+		opacity: 0;
+		outline: none;
+		background: white;
+		cursor: inherit;
+		display: block;
+	}
+
+	</style>
+	
+</head>
+
+<body>
+	<div class="container-fluid top-container">
+		<h1 class="title">Planck</h1>
+		<h4>Select & Upload</h4>
+		<form enctype="multipart/form-data" action="" method="post">
+			<span class="btn btn-default btn-file">
+				<span class="glyphicon glyphicon-level-up" aria-hidden="true"></span> Browse <input type="file" style="margin: 0 auto;" type="file" name="filearg" onchange='$("#upload-file-info").html($(this).val());' />
+			</span>
+			<span id="upload-file-info"></span>
+			<br> <br>
+			<input class="btn btn-warning" type="submit" value="Upload" />
+		</form>
+	</div>
+</body>
+</html>

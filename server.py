@@ -25,7 +25,7 @@ rooms = {"5":
             "raw_transcripts_dict":{"0":"este evento","1":"fina"},
             "en":
                 {"translated_transcripts_dict":
-                    {"0":"this event is very funny","1":"thin"}
+                    {"0":"this event","1":"thin"}
                 }
             ,
             "es":
